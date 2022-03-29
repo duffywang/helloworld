@@ -1,4 +1,4 @@
-package Async;
+package helloworld.src.Async;
 
 import java.util.concurrent.FutureTask;
 import java.util.concurrent.TimeUnit;
@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 public class FutureTest {
 
     public static void main(String[] args) throws Exception{
-        MyThread myThread = new MyThread();
+        Async.MyThread myThread = new Async.MyThread();
         FutureTask<String> task1 = new FutureTask<>(myThread);
         FutureTask<String> task2 = new FutureTask<>(myThread);
         FutureTask<String> task3 = new FutureTask<>(myThread);

@@ -1,4 +1,4 @@
-package coder;
+package helloworld.src.coder;
 
 import java.util.HashMap;
 import java.util.Map;

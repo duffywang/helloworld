@@ -1,4 +1,4 @@
-package Async;
+package helloworld.src.Async;
 
 /**
  * @auther : wangyufei
@@ -7,7 +7,7 @@ package Async;
 public class Remote {
 
 
-    public void executeMessage(String msg, Callback callback){
+    public void executeMessage(String msg, Async.Callback callback){
         //3.
         System.out.println(msg);
         //4.
