@@ -28,8 +28,8 @@ public class MaxConsecutiveAnswers2024 {
 
     private static int getMaxConsecutiveAnswers(String answerKey, int k, Character s) {
         int len = answerKey.length();
-        int left = 0, right = 0, sum = 0,res = 0;
-        for (; right < len; right++) {
+        int left = 0, right = 0, sum = 0, res = 0;
+        for ( ; right < len; right++) {
             //每用一次机会加1
             sum += answerKey.charAt(right) != s ? 1 : 0;
             while (sum > k) {
@@ -41,7 +41,7 @@ public class MaxConsecutiveAnswers2024 {
     }
 
     public static void main(String[] args) {
-        int res = maxConsecutiveAnswers("TTFF", 2);
+        int res = maxConsecutiveAnswers("TTFTTFTTT", 1);
         System.out.println(res);
     }
 }
