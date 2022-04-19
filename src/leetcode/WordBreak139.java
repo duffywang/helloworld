@@ -5,6 +5,16 @@ import java.util.*;
 /**
  * 给定一个非空字符串 s 和一个包含非空单词列表的字典 wordDict，判定 s 是否可以被空格拆分为一个或多个在字典中出现的单词。
  *
+ * 输入: s = "leetcode", wordDict = ["leet", "code"]
+ * 输出: true
+ * 解释: 返回 true 因为 "leetcode" 可以由 "leet" 和 "code" 拼接成。
+ *
+ * 输入: s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]
+ * 输出: false
+ *
+ * 来源：力扣（LeetCode）
+ * 链接：https://leetcode-cn.com/problems/word-break
+ * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  * @auther : wangyufei
  * @date : 2020-01-29
  **/
