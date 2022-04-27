@@ -3,6 +3,7 @@ package src.lighting;
 /**
  * @auther : wangyufei
  * @date : 2020-10-25
+ * @
  **/
 public interface RPCWeights {
 
